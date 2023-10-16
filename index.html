@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+      <div class="score-list">
+        <h2>Computer Score:- <span id="computer-score">0</span></h2>
+        <h2>Your Score:- <span id="my-score">0</span></h2>
+        <h2>Attempts:- <span id="attempts">5</span></h2>
+      </div>
+      <div class="game">
+        <div class="paper">
+            <h1>Paper</h1>
+             <button onclick="playRound('paper')">Click me</button>
+        </div>
+        <div class="scissor">
+            <h1>Scissor</h1>
+             <button onclick="playRound('scissor')">Click me</button>
+        </div>
+        <div class="stone">
+            <h1>Stone</h1>
+             <button onclick="playRound('stone')">Click me</button>
+        </div>
+      </div>
+      <div class="Choices">
+         <div class="c">
+            <h1>Your choice :- <span id="userChoice"></span>
+           </h1>
+         <h1>Computer choice:- <span id="computer-choice"></span>
+         </h1>
+         <h1>Round Result:- <span id="roundResult"></span></h1>
+        </div>
+      </div>
+      <div class="result">
+        <span id="finalResult">You won</span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
